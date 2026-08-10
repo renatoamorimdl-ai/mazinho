@@ -1,0 +1,39 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: renato-mazin
+  namespace: renato-mazin
+  labels:
+    app.kubernetes.io/name: renato-mazin
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - mazinhoguinchos.com.br
+        - www.mazinhoguinchos.com.br
+      secretName: renato-mazin-tls
+  rules:
+    - host: mazinhoguinchos.com.br
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: renato-mazin
+                port:
+                  number: 80
+    - host: www.mazinhoguinchos.com.br
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: renato-mazin
+                port:
+                  number: 80

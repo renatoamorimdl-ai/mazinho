@@ -1,0 +1,258 @@
+{
+  "site": {
+    "language": "pt-BR",
+    "title": "Mazinho Guinchos - Guindaste, Munck e Remoção Industrial",
+    "description": "Especialistas em transporte de máquinas e equipamentos pesados em Recife. Mais de 45 anos de experiência com segurança e qualidade.",
+    "themeColor": {
+      "lightMedia": "(prefers-color-scheme: light)",
+      "darkMedia": "(prefers-color-scheme: dark)",
+      "lightColor": "#f8f9fc",
+      "darkColor": "#0f1a33"
+    },
+    "icons": {
+      "mainUrl": "/logo-mazinho-3.png",
+      "mainType": "image/png",
+      "mainSizes": "64x64",
+      "fallbackUrl": "/favicon.ico"
+    }
+  },
+  "tracking": {
+    "googleTagSrc": "https://www.googletagmanager.com/gtag/js?id=AW-17721541828",
+    "googleTagInline": "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\n\ngtag('config', 'AW-17721541828');",
+    "gtmInline": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WV4K28T6');",
+    "gtmNoScriptSrc": "https://www.googletagmanager.com/ns.html?id=GTM-WV4K28T6"
+  },
+  "links": {
+    "whatsapp": "https://wa.me/5581989218605"
+  },
+  "header": {
+    "navItems": [
+      {
+        "id": "inicio",
+        "label": "Início"
+      },
+      {
+        "id": "servicos",
+        "label": "Serviços"
+      },
+      {
+        "id": "sobre",
+        "label": "Sobre"
+      },
+      {
+        "id": "parceiros",
+        "label": "Parceiros"
+      },
+      {
+        "id": "depoimentos",
+        "label": "Depoimentos"
+      },
+      {
+        "id": "contato",
+        "label": "Contato"
+      }
+    ],
+    "mobileMenuAriaLabel": "Abrir menu",
+    "logoAriaLabel": "Mazinho Guinchos",
+    "logoText": "Mazinho Guinchos",
+    "desktopNavAriaLabel": "Navegação principal",
+    "ctaText": "Solicitar orçamento",
+    "themeAriaLight": "Ativar tema claro",
+    "themeAriaDark": "Ativar tema escuro",
+    "themeSymbolLight": "☀",
+    "themeSymbolDark": "☾",
+    "mobileNavAriaLabel": "Navegação móvel",
+    "mobileThemeLight": "Tema claro",
+    "mobileThemeDark": "Tema escuro"
+  },
+  "hero": {
+    "title": "Potência e precisão em içamento de cargas.",
+    "description": "Especialistas em transporte de máquinas e equipamentos pesados, com equipe técnica qualificada, frota moderna e atendimento ágil para operações de alta complexidade.",
+    "primaryCta": "Solicitar orçamento",
+    "secondaryCta": "Nossos serviços",
+    "mediaAriaLabel": "Operação de guindaste"
+  },
+  "trustPhrase": {
+    "text": "Confie na Mazinho Guinchos para garantir o sucesso da sua movimentação de carga!"
+  },
+  "services": {
+    "eyebrow": "Confiança e precisão operacional",
+    "title": "Nossos Serviços",
+    "detailsLinkText": "Ver detalhes ->",
+    "items": [
+      {
+        "title": "Guindastes",
+        "description": "Locação e operação de guindastes para projetos de grande porte e alta complexidade.",
+        "image": "/maquinas/maquinas-4.jpeg",
+        "positionX": 50,
+        "positionY": 40
+      },
+      {
+        "title": "Caminhões Munck",
+        "description": "Frota moderna de caminhões Munck para operações de movimentação com precisão.",
+        "image": "/maquinas/maquinas-5.webp",
+        "positionX": 50,
+        "positionY": 48
+      },
+      {
+        "title": "Remoção industrial",
+        "description": "Remoção segura e eficiente de equipamentos e maquinários industriais.",
+        "image": "/maquinas/maquinas-3.jpeg",
+        "positionX": 50,
+        "positionY": 50
+      },
+      {
+        "title": "Içamento de cargas",
+        "description": "Cargas de qualquer porte e complexidade, com segurança e equipamentos modernos.",
+        "image": "/maquinas/maquinas-1.png",
+        "positionX": 50,
+        "positionY": 52
+      },
+      {
+        "title": "Transporte de cargas especiais",
+        "description": "Movimentação de equipamentos de qualquer tamanho com profissionalismo e cuidado.",
+        "image": "/maquinas/maquinas-2.png",
+        "positionX": 50,
+        "positionY": 45
+      }
+    ]
+  },
+  "history": {
+    "pill": "Nossa História",
+    "title": "45 anos construindo confiança e movendo o progresso.",
+    "descriptionOne": "Uma empresa especializada no transporte de máquinas e equipamentos pesados, atendendo toda a cidade de Recife. Com mais de 45 anos de experiência na locação de guindastes, contamos com uma frota de equipamentos novos e modernos, oferecendo soluções eficientes e seguras para o transporte de máquinas, equipamentos e cargas pesadas.",
+    "descriptionTwo": "Nosso foco é atender às necessidades de empresas que precisam retirar e transportar equipamentos industriais pesados e maquinários, sempre com preços competitivos e serviço de qualidade.",
+    "stats": [
+      {
+        "value": "45+",
+        "label": "Anos de experiência"
+      },
+      {
+        "value": "24h",
+        "label": "Atendimento"
+      }
+    ],
+    "mediaAriaLabel": "Equipe técnica em operação",
+    "badgeTitle": "Operação segura",
+    "badgeText": "Equipamentos revisados e equipe especializada para operações críticas de carga."
+  },
+  "partners": {
+    "eyebrow": "Confiança",
+    "title": "Grandes parceiros industriais",
+    "carouselAriaLabel": "Carrossel de parceiros",
+    "namePrefix": "Parceiro",
+    "total": 7
+  },
+  "testimonials": {
+    "eyebrow": "Depoimentos",
+    "title": "O que nossos clientes dizem",
+    "source": "Avaliações do Google",
+    "brandLetter": "G",
+    "items": [
+      {
+        "initials": "RL",
+        "name": "Ricardo Lima",
+        "text": "Serviço impecável na remoção dos nossos geradores pesados. Equipe pontual e técnica.",
+        "date": "Postado há 2 semanas"
+      },
+      {
+        "initials": "CS",
+        "name": "Cláudia Souza",
+        "text": "Operação muito bem planejada. Cumpriram os prazos e trataram os equipamentos com extremo cuidado.",
+        "date": "Postado há 1 mês"
+      },
+      {
+        "initials": "MO",
+        "name": "Marcos Oliveira",
+        "text": "Atendimento ágil, equipe experiente e execução segura. Referência no transporte industrial.",
+        "date": "Postado há 3 semanas"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Fale com a nossa equipe",
+    "title": "Contato",
+    "info": [
+      {
+        "label": "Endereço",
+        "value": "R. Araruna, 437 - Engenho do Meio, Recife - PE, 50730-060",
+        "icon": "01"
+      },
+      {
+        "label": "WhatsApp",
+        "value": "(81) 98921-8605",
+        "icon": "02"
+      },
+      {
+        "label": "Celular 2",
+        "value": "(81) 99643-4057",
+        "icon": "03"
+      },
+      {
+        "label": "Telefone fixo",
+        "value": "(81) 3271-2523",
+        "icon": "04"
+      },
+      {
+        "label": "E-mail",
+        "value": "mazinhoguinchos2014@gmail.com",
+        "icon": "06"
+      }
+    ],
+    "formTitle": "Envie uma mensagem",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Seu nome completo",
+    "phoneLabel": "Telefone",
+    "phonePlaceholder": "(81) 98921-8605",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Como podemos ajudar?",
+    "submitText": "Enviar mensagem",
+    "mapTitle": "Mapa de atendimento Mazinho Guinchos",
+    "mapSrc": "https://www.google.com/maps?q=R.%20Araruna%2C%20437%20-%20Engenho%20do%20Meio%2C%20Recife%20-%20PE%2C%2050730-060&z=17&output=embed"
+  },
+  "footer": {
+    "logoAriaLabel": "Mazinho Guinchos",
+    "logoText": "Mazinho Guinchos",
+    "brandText": "Especialistas em içamento, remoção industrial e transporte de máquinas e equipamentos pesados, com segurança, agilidade e mais de 45 anos de experiência.",
+    "mainCtaText": "Solicitar orçamento",
+    "navTitle": "Navegação",
+    "navAriaLabel": "Links do rodapé",
+    "navLinks": [
+      {
+        "href": "#inicio",
+        "label": "Início"
+      },
+      {
+        "href": "#servicos",
+        "label": "Serviços"
+      },
+      {
+        "href": "#sobre",
+        "label": "Sobre"
+      },
+      {
+        "href": "#parceiros",
+        "label": "Parceiros"
+      },
+      {
+        "href": "#depoimentos",
+        "label": "Depoimentos"
+      }
+    ],
+    "serviceTitle": "Atendimento",
+    "serviceList": [
+      "R. Araruna, 437 - Engenho do Meio, Recife - PE, 50730-060",
+      "CNPJ: 31.457.379/0001-97",
+      "WhatsApp: (81) 98921-8605",
+      "Celular 2: (81) 99643-4057",
+      "Fixo: (81) 3271-2523",
+      "E-mail: mazinhoguinchos2014@gmail.com",
+      "Atendimento 24h",
+      "Içamento, remoção industrial e transporte de cargas especiais"
+    ],
+    "copyright": "© 2026 Mazinho Guinchos. Todos os direitos reservados.",
+    "developedByPrefix": "Desenvolvido por",
+    "developerName": "ideiasemdev",
+    "developerUrl": "https://website.ideiasemdev.com.br"
+  }
+}

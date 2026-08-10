@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@import "./styles/site.css";
+
+:root {
+  --color-navy: #06245f;
+  --color-navy-dark: #031a49;
+  --color-red: #c91414;
+  --color-white: #ffffff;
+  --color-text-dark: #101322;
+  --color-muted: #6b7280;
+  --color-border: #d9d9d9;
+  --color-placeholder: #7f7f7f;
+
+  --container-max: 1280px;
+  --container-pad: clamp(1rem, 3vw, 2.5rem);
+
+  --bg: #ffffff;
+  --bg-soft: #f8f9fc;
+  --surface: #ffffff;
+  --surface-alt: #f4f7fb;
+  --text: #101322;
+  --text-muted: #6b7280;
+  --border-soft: #d9d9d9;
+  --nav-link: #4d5160;
+  --overlay-hero-a: rgb(255 255 255 / 14%);
+  --overlay-hero-b: rgb(0 0 0 / 26%);
+  --overlay-hero-c: rgb(6 36 95 / 0.16);
+  --shadow-elev: 0 6px 24px rgb(16 19 34 / 0.08);
+}
+
+html.theme-dark {
+  color-scheme: dark;
+  --bg: #0b1326;
+  --bg-soft: #0f1a33;
+  --surface: #111d39;
+  --surface-alt: #152443;
+  --text: #e7ecf8;
+  --text-muted: #a8b5cf;
+  --border-soft: #2b3b61;
+  --nav-link: #c6d0e6;
+  --overlay-hero-a: rgb(255 255 255 / 8%);
+  --overlay-hero-b: rgb(0 0 0 / 45%);
+  --overlay-hero-c: rgb(6 36 95 / 0.34);
+  --shadow-elev: 0 10px 28px rgb(0 0 0 / 0.38);
+}
+
+@theme inline {
+  --font-sans: var(--font-montserrat);
+  --color-navy: var(--color-navy);
+  --color-navy-dark: var(--color-navy-dark);
+  --color-red: var(--color-red);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* Shared patterns */
+:is(.service-card, .partner-item, .testimonial-card, .contact-info-item, .contact-map-card) {
+  background: var(--surface);
+}
+
+:is(.hero-media-photo, .history-media-photo, .service-card-photo) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+:is(.section-eyebrow, .trust-text, .service-card-title, .service-card-link, .history-pill, .history-stats p, .contact-form-title, .contact-form label, .contact-submit, .footer-logo, .footer-col-title) {
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+

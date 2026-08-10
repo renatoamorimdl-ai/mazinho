@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: renato-mazin
+  namespace: renato-mazin
+  labels:
+    app.kubernetes.io/name: renato-mazin
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: renato-mazin
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+      protocol: TCP

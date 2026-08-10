@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: renato-mazin
+  namespace: renato-mazin
+  labels:
+    app.kubernetes.io/name: renato-mazin
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: renato-mazin
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: renato-mazin
+        version: v1.0.29
+    spec:
+      containers:
+        - name: renato-mazin
+          image: docker.io/ideiasemdesenvolvimento/renato-mazin:latest
+          imagePullPolicy: Always
+          envFrom:
+            - secretRef:
+                name: renato-mazin-secret
+          ports:
+            - name: http
+              containerPort: 3000
+              protocol: TCP
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            timeoutSeconds: 3
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: 30
+            periodSeconds: 20
+            timeoutSeconds: 3
+            failureThreshold: 3
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
