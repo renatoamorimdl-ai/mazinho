@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/aluguel-de-munck-recife", "destination": "/aluguel-de-munck-recife.html" },
+    { "source": "/aluguel-de-guindaste-recife", "destination": "/aluguel-de-guindaste-recife.html" }
+  ]
+}
